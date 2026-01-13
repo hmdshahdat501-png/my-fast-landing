@@ -1,3 +1,13 @@
+
+.open-sans{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  
+}
+header{
+    background-color: rgba(255, 144, 14, 0.1);
+}
+
 nav{
     display: flex;
     justify-content: space-between;
@@ -11,7 +21,9 @@ ul{
 }
 li{
     list-style: none;
-    margin-left: 40px;
+    margin-right: 30px;
+    font-size: 1.25rem;
+    max-width: 477px;
 }
 .hading-text{
     font-size: 2.5rem;
@@ -19,4 +31,248 @@ li{
     padding: 0px;
 
 }
+.contecnt-section{
+    margin: 0 auto;
+    text-align: center;
 
+}
+.contecnt-section img{
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.contecnt-section h2{
+    font-size: 4rem;
+    font-weight: bold;
+    padding-bottom: 0px;
+}
+.contecnt-section p{
+    font-size: 1rem;
+    max-width: 860px;
+    margin: 0 auto;
+    padding-top: 0;
+    padding: px;
+    margin-bottom: 20px;
+}
+.but{
+    padding: 20px 24px;
+    font-size: 1.25rem;
+    font-weight: 700;
+    background-color: #FF900E;
+    color: white;
+    border: none;
+    border-radius: 8px;
+
+}
+
+.fast-main{
+    display: flex;
+    max-width: 1320px;
+    margin: 0 auto;
+    gap: 74px;
+    margin-top: 85px;
+}
+.img-section{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+.content-section{
+    
+}
+
+.content-section h2{
+    font-size: 3rem;
+}
+#qe{
+    color: rgb(71, 63, 63);
+    font-weight: 600;
+}
+#qr{
+    color: #FF900E;
+
+}
+ .pr{
+    font-size: 1rem;
+    color:rgb(71, 63, 63);
+    margin-top: 24px;
+    margin-bottom: 30px;
+}
+.trad-contet{
+    display: flex;
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-top: 130px;
+    gap: 146px;
+}
+.trd-hadding h2{
+    font-size: 2.75rem;
+    font-weight: bold;
+    border-left: 5px solid #FF900E;
+    padding-left: 5px;
+    margin: 0px;
+}
+.trad-contet p{
+    font-size: 1rem;
+    color: rgb(77, 77, 77);
+}
+.card{
+
+}
+.card-id{
+    margin-top: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    padding: 5px 30px;
+}
+.card-id h5{
+    font-size: 1.25rem;
+    color: rgb(72, 70, 70);
+}
+.rbut h2{
+    font-size: 3.5rem;
+    margin-bottom: 0px;
+    color: white;
+}
+.rbut p{
+    font-size: 1.5rem;
+    padding: 0;
+    margin-top: 3px;
+    color: white;
+}
+.rbut{
+    background-color: #FF900E;
+    border:none;
+    margin-top: -100px;
+    margin-left: -80px;
+
+}
+.trad-img img{
+    max-width: 708px;
+}
+.last-contn{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.last-contn h2{
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+.sectnd-card{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.secdent-id{
+    text-align: center;
+    border: 1px solid red;
+    margin: 75px;
+    border-radius: 5px;
+}
+.secdent-id h2{
+    font-size: 3rem;
+    margin: 0px;
+    font-weight: bold;
+}
+.secdent-id p{
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 0px;
+    padding-bottom: 45px;
+
+}
+.secdent-id img{
+    padding-top: 45px;
+}
+.sopnt-write{
+    text-align: center;
+}
+.sopnt-write h2{
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-top: 180px;
+}
+.sopnt-write p{
+    font-size: 1rem;
+    
+}
+.spone-icon{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    margin: 0 auto;
+    max-width: 1440px;
+    gap: 155px;
+    margin-top: 50px;
+    
+}
+.spone-icon  img{
+    margin: 0 auto;
+    filter: grayscale(100%);
+}
+.fot{
+    text-align: center;
+    font-size: 1.25rem;
+    background-color: antiquewhite;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    margin-top: 130px;
+}
+@media screen and (max-width: 882px) {
+    nav{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .contecnt-section img{
+        width: 100%;
+    }
+    .img-section{
+    grid-template-columns: repeat(1, 1fr);
+}
+.fast-main{
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+}
+.re li{
+    text-align: center;
+    margin-left: 10px;
+    padding: 10px;
+}
+.trad-contet{
+    flex-direction: column;
+}
+
+.trad-img img{
+    max-width: 100%;
+}
+.sectnd-card{
+    grid-template-columns: repeat(2, 1fr);
+    gap:10px;
+}
+.secdent-id{
+    margin: 0px;
+}
+li{
+    margin-right: 6px;
+    margin: 0 auto;
+}
+ul{
+    padding: 0px;
+}
+.spone-icon{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+
+}
+.rbut{
+    margin-top: 10px;
+    margin-left: 50px;
+
+}
